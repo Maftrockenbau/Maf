@@ -1,0 +1,162 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #d1e8e2;
+    /* Soft Mint Green background color */
+    margin: 0;
+}
+
+header {
+    background-color: #19747e;
+    /* Deep Teal header background color */
+    color: #e2e2e2;
+    /* Light Gray text color */
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    /* Stack child elements vertically */
+    align-items: center;
+    /* Center child elements horizontally */
+}
+
+.logo-container {
+    max-width: 350px;
+    /* Adjust the maximum width for the logo */
+    margin: 20px 0;
+    /* Adjust the margin as needed */
+}
+
+.logo-container img {
+    width: 100%;
+    /* Make sure the image takes up the full width of the container */
+    height: auto;
+    border-radius: 50%;
+    /* Make the logo rounded */
+}
+
+.header-content {
+    max-width: 600px;
+    margin: 20px;
+    /* Adjust the margin as needed */
+}
+
+h1 {
+    font-size: 36px;
+    /* Larger font size */
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 18px;
+    /* Larger font size for the subtitle */
+    color: black;
+    /* Light Sky Blue text color */
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.pic {
+    flex: 0 0 48%;
+    text-align: center;
+    background-color: #fff;
+    /* White background color for pictures */
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.motivation-text {
+    color: #c4c5ba;
+    /* Sophisticated Sage text color */
+    margin-top: 20px;
+}
+
+footer {
+    background-color: #19747e;
+    /* Deep Teal footer background color */
+    color: #e2e2e2;
+    /* Light Gray text color */
+    padding: 10px;
+    text-align: center;
+}
+
+.footer-container {
+    max-width: max-content;
+    margin: 0 auto;
+}
+
+header {
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-position: center;
+
+
+    /* Light Gray text color */
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* Center vertically */
+}
+
+.logo-container {
+    text-align: center;
+    margin: 0 auto;
+    /* This will center the logo horizontally */
+}
+
+
+.pic img {
+    max-width: 100%;
+    height: auto;
+}
+
+.pic {
+    flex: 0 0 48%;
+    text-align: center;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-right: 20px;
+    /* Add more space between each pic div */
+    margin-bottom: 20px;
+    /* Add more space between rows */
+}
+
+ul {
+    font-size: 20px;
+    /* Adjust the font size to your preference */
+}
+
+/* Add a media query for screens smaller than 768px (typical phone width) */
+@media only screen and (max-width: 768px) {
+    .row {
+        flex-direction: column;
+        /* Change the flex direction to column for smaller screens */
+    }
+
+    .pic {
+        flex: 0 0 100%;
+        /* Change the flex to 100% width for smaller screens */
+        margin-right: 0;
+        /* Remove the right margin for better spacing */
+    }
+}
