@@ -1,14 +1,15 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #d1e8e2;
+    background-color: rgb(208, 210, 209);
     /* Soft Mint Green background color */
     margin: 0;
+    color: black;
 }
 
 header {
     background-color: #19747e;
     /* Deep Teal header background color */
-    color: #e2e2e2;
+    color: #fff;
     /* Light Gray text color */
     padding: 20px;
     text-align: center;
@@ -49,8 +50,7 @@ h1 {
 p {
     font-size: 18px;
     /* Larger font size for the subtitle */
-    color: black;
-    /* Light Sky Blue text color */
+
 }
 
 .container {
@@ -88,12 +88,14 @@ img {
 }
 
 footer {
-    background-color: #19747e;
+
+    background-color: rgb(66, 80, 86);
     /* Deep Teal footer background color */
-    color: #e2e2e2;
-    /* Light Gray text color */
+    color: #ffffff;
+    /* White text color */
     padding: 10px;
     text-align: center;
+
 }
 
 .footer-container {
@@ -117,6 +119,7 @@ header {
 }
 
 .logo-container {
+    color: #fff;
     text-align: center;
     margin: 0 auto;
     /* This will center the logo horizontally */
